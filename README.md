@@ -1,6 +1,6 @@
 # Comparative Analysis of E-Commerce and Q-Commerce in India
 
-![ef85a476-a6ac-4276-9285-f683e3a1d092](https://github.com/user-attachments/assets/57815e73-4f0e-43e3-8355-3c74f38684e9)
+![53abf394-d21c-4866-87b7-598b806f6691](https://github.com/user-attachments/assets/7b058bbe-1075-4722-a890-a5732557fbd6)
 
 ## Overview
 
