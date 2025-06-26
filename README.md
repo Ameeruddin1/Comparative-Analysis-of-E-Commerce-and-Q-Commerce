@@ -2,8 +2,6 @@
 
 ![ef85a476-a6ac-4276-9285-f683e3a1d092](https://github.com/user-attachments/assets/57815e73-4f0e-43e3-8355-3c74f38684e9)
 
-# Comparative Analysis of E-Commerce and Q-Commerce in India
-
 ## Overview
 
 This repository contains a structured study on the evolution, operational models, and future trajectory of E-Commerce and Q-Commerce platforms in India. With Amazon, Flipkart, Swiggy Instamart, Zepto, and Blinkit as focal points, the project explores critical metrics such as sales, revenue, profitability, customer experience, and sustainability.
