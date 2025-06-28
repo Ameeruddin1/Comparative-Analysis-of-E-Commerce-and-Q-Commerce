@@ -1,71 +1,68 @@
-# Comparative Analysis of E-Commerce and Q-Commerce in India
+# Comparative Analysis of E-Commerce and Q-Commerce 
 
 ![53abf394-d21c-4866-87b7-598b806f6691](https://github.com/user-attachments/assets/7b058bbe-1075-4722-a890-a5732557fbd6)
 
-## Overview
+This repository contains an end-to-end comparative business analysis of E-Commerce and Q-Commerce in India using Python. The project transforms raw sales and customer data into actionable insights through data preprocessing, exploratory analysis, and predictive modeling.
 
-This repository contains a structured study on the evolution, operational models, and future trajectory of E-Commerce and Q-Commerce platforms in India. With Amazon, Flipkart, Swiggy Instamart, Zepto, and Blinkit as focal points, the project explores critical metrics such as sales, revenue, profitability, customer experience, and sustainability.
+## Objective
 
----
+- To compare sales, revenue, and profitability between E-Commerce and Q-Commerce platforms.
+- To analyze customer experience metrics such as order priority, device usage, and payment preferences.
+- To identify product and brand trends based on gender and purchase patterns.
+- To predict future sales and profit trends using machine learning models.
 
-## Need for the Study
+## Tools Used
 
-As India's digital ecosystem matures, conventional E-Commerce models led by Amazon and Flipkart face growing competition from Q-Commerce players like Swiggy Instamart, Blinkit, and Zepto. Unlike scheduled deliveries that define traditional E-Commerce, Q-Commerce emphasizes ultra-fast fulfillment — often within 10 minutes — reshaping consumer expectations and business economics.
-
-This rapid transition presents both opportunities and challenges:
-
-- Operational pressure on delivery networks
-- Ethical and environmental concerns
-- Market disruption and innovation potential
-
-This project evaluates the comparative performance and long-term viability of both models to inform business, investment, and policy decisions.
-
----
-
-## Objectives of the Study
-
-1. To compare sales, revenue, and profitability between E-Commerce and Q-Commerce platforms.
-2. To analyze customer experience across both models using key behavioral variables.
-
----
+- Python (Jupyter Notebook)
+- Libraries: pandas, numpy, matplotlib, seaborn, sklearn, scipy
+- Dataset: `Ecom_Qcom.csv` (17,097 rows × 15 columns)
 
 ## Methodology
 
-### Data Collection
+### 1. Data Preprocessing
+- Cleaned and standardized sales and customer data.
+- Handled null values and formatted columns.
+- Created new features such as `Profit Margin`, `Customer Type`, and `Order Priority`.
 
-The analysis is based on **secondary data** collected between **April 2023 and March 2024**. The dataset comprises:
-- 17,097 records
-- 15 variables across performance and customer experience dimensions
+### 2. Exploratory Data Analysis (EDA)
+- Sales, profit, and transaction comparisons between E-Commerce and Q-Commerce.
+- Analysis of customer types, payment methods, and device usage.
+- Product preferences based on gender.
+- Discount vs profitability visualizations.
 
-### Key Variables
+### 3. Statistical Analysis
+- Performed Chi-Square tests to evaluate relationships:
+  - Gender vs Order Priority
+  - Product Category vs Brand
+  - Product Category vs Product
 
-- **Sales & Revenue**: Segmented by business model (E-Commerce / Q-Commerce)
-- **Customer Experience**: Measured by:
-  - Delivery priority levels (high / medium / low)
-  - Device usage (mobile / desktop / tablet)
-  - Payment methods (wallets, credit cards, COD)
+### 4. Predictive Modeling
+- Linear Regression to predict future profit and sales.
+- Random Forest Regressor for improved accuracy and model generalization.
+- Evaluation metrics: R² Score, MAE, MSE.
 
-### Data Source
+## Key Insights
 
-All data used in this project was sourced from **Statista**, a recognized global analytics and research platform. Statista aggregates reports from:
-- Government agencies
-- Corporate filings
-- Research consultancies
+- **E-Commerce** leads in total transactions and revenue but grows slower than Q-Commerce.
+- **Q-Commerce** shows faster growth potential with predicted sales rising ~29% by 2026.
+- Both platforms show nearly identical profit margins (~9.9%), but Q-Commerce is more discount-sensitive.
+- Mobile remains the dominant device across both platforms.
+- Product and brand preferences vary significantly across gender segments.
+- Prediction models indicate high accuracy with R² = 1.0 for Linear Regression.
 
-Its data is reliable, verified, and aligned with international research standards.
+## Project Outcomes
 
----
+- Provides a structured comparative overview of two major digital retail models.
+- Highlights operational strengths and consumer behavior insights for both platforms.
+- Demonstrates advanced proficiency in data analysis and business reporting using Python.
+- Offers predictive foresight into sales and profit trends, supporting strategic decision-making.
 
-## Scope of the Study
+## Author
 
-This comparative study examines the operational dynamics of:
-- **Traditional E-Commerce Platforms**: Amazon, Flipkart
-- **Q-Commerce Platforms**: Blinkit, Zepto, Swiggy Instamart
-
-The study focuses on the Indian market context and offers:
-- Performance metrics (revenue, profitability)
-- Operational insights (delivery models, consumer behavior)
-- Strategic implications for future market shifts
+**Mohammed Ameeruddin**  
+B.Com (Hons) – Business Analytics  
+Bhavan’s Vivekananda College of Science, Humanities & Commerce  
+Academic Year: 2024–2025
 
 
 
